@@ -1,139 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/8c87e844f2.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-  </head>
+    <!-- boxicons cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-  <body>
-    <div class="container" style="margin: 2%">
-      <div class="row">
-        <div class="col-md-4 offset-2">
-          <img src="img/img.png" alt="" />
-        </div>
-        <div class="col-md-4 offset-1">
-          <div
-            class="login"
-            style="
-              border: 1px solid rgb(203, 197, 197);
-              padding: 5% 10%;
-              margin: 5% 2% 2% -10%;
-            "
-          >
-            <h2 style="margin: 2%; padding: 2% 2% 6% 2%; text-align: center">
-              <img src="img/heading.png" alt="" />
-            </h2>
-            <form action="">
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="Phone number,username,or email"
-                class="form-control"
-                style="
-                  background-color: rgb(246, 246, 246);
-                  margin: 2%;
-                  font-size: 13px;
-                "
-              />
-              <input
-                type="password"
-                name="password"
-                id=""
-                placeholder="Password"
-                class="form-control"
-                style="
-                  background-color: rgb(246, 246, 246);
-                  margin: 2%;
-                  font-size: 13px;
-                "
-              />
-              <button
-                type="button"
-                class="btn btn-primary form-control"
-                style="
-                  background-color: rgb(246, 246, 246);
-                  margin: 5% 2% 2% 2%;
-                  padding: 1.5%;
-                  background-color: #4cb5f9;
-                  border: #7aa4f1;
-                  border-radius: 12px;
-                "
-              >
-                Log in
-              </button>
-              <p style="text-align: center"><img src="img/or.png" alt="" /></p>
-              <div style="text-align: center">
-                <p style="text-align: center; color: rgb(46, 46, 128)">
-                  <i class="fa-brands fa-square-facebook"></i
-                  ><a
-                    style="
-                      color: rgb(46, 46, 128);
-                      text-decoration: none;
-                      font-size: 15px;
-                      font-weight: 500;
-                    "
-                    href="facebook.com"
-                  >
-                    Log in with facebook </a
-                  ><br />
-                </p>
-                <a
-                  style="
-                    color: rgb(46, 46, 128);
-                    text-decoration: none;
-                    font-size: 12px;
-                    text-align: center;
-                  "
-                  href="forgot"
-                  >Forgot password?</a
-                >
-              </div>
+</head>
+
+<body>
+
+    <div class="image__login">
+        <img src="img/instagramimg.png" alt="">
+    </div>
+    <div class="right">
+    <div class="insta__form">
+
+        <div class="login__form">
+            <img src="img/instalogo.png">
+
+            <form class="form">
+
+                <input type="text" placeholder="Phone number, username, or email">
+                <input type="text" placeholder="Password">
+
+                <button>
+                    Log in
+                </button>
+                
+                <span class="or">OR</span>
+                
             </form>
-          </div>
-          <div
-            class="signup"
-            style="
-              border: 1px solid rgb(203, 197, 197);
-              padding: 5%;
-              margin: 4% 2% 2% -10%;
-              text-align: center;
-              font-size: 14px;
-            "
-          >
-            <p>Don't have an account? <a href="instagram.com">Sign up</a></p>
-          </div>
-          <div
-            class="app"
-            style="
-              padding: 2%;
-              margin: 0% 2% 2% -10%;
-              text-align: center;
-              font-size: 13px;
-            "
-          >
-            <p>Get the app.</p>
-            <img src="img/microsoft.png" alt="" />
-            <img src="img/microsoft2.png" alt="" />
-          </div>
+            <h3>
+                <i class='bx bxl-facebook-square'></i>
+                Log in with Facebook
+            </h3>
+            <span class="forget">
+                Forgot Password ?
+            </span>
         </div>
-      </div>
     </div>
-    <div class="footer" style="text-align: center">
-      <img src="img/footer.png" alt="" />
+    <div class="sign_up">
+        <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/"> Sign up</a></p>
+    </div> 
+    <div class="app">
+        <p>Get the app.</p>
+        <img src="img/microsoft.png" alt="">
+        <img src="img/microsoft2.png" alt="">
     </div>
-  </body>
+  </div>
+
+</body>
+
 </html>
